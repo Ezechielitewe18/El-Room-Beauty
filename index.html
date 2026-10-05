@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Room Beauty — Makeup professionnel</title>
+  <meta name="description" content="El Room Beauty — makeup professionnel pour vos moments simples comme pour vos grandes occasions. Réservation en ligne.">
+  <meta name="theme-color" content="#FFF9F6">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="El Room Beauty">
+  <meta property="og:title" content="El Room Beauty — Makeup professionnel">
+  <meta property="og:description" content="Révélez votre beauté, sublimez votre moment. Réservation en ligne, service à domicile.">
+  <meta property="og:image" content="images/hero.jpeg">
+  <meta property="og:locale" content="fr_CD">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="images/hero.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <a href="#accueil" class="nav__brand">EL ROOM BEAUTY</a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#accueil">Accueil</a>
+      <a href="#prestations">Prestations</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#reservation">Réservation</a>
+      <a href="#paiement">Paiement</a>
+      <a href="#contact">Contact</a>
+      <a href="#reservation" class="btn btn--small">Réserver</a>
+    </nav>
+
+    <button class="nav__burger" id="navBurger" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- ============ ACCUEIL ============ -->
+    <section id="accueil" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="eyebrow">El Room Beauty</span>
+          <h1 class="words"><span class="w" style="--d:.05s"><span class="wi">Révélez</span></span> <span class="w" style="--d:.16s"><span class="wi">votre</span></span> <span class="w" style="--d:.27s"><span class="wi">beauté,</span></span><br><em><span class="w" style="--d:.42s"><span class="wi">sublimez</span></span> <span class="w" style="--d:.53s"><span class="wi">votre</span></span> <span class="w" style="--d:.64s"><span class="wi">moment.</span></span></em></h1>
+          <p class="hero__lead">
+            Makeup professionnel pour vos moments simples comme pour vos grandes occasions.
+          </p>
+          <div class="hero__actions">
+            <a href="#reservation" class="btn">Réserver mon makeup</a>
+            <a href="#prestations" class="btn btn--outline">Découvrir les prestations</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__frame">
+            <img src="images/hero.jpeg" alt="Maquillage professionnel El Room Beauty" width="720" height="1280" fetchpriority="high">
+          </div>
+          <span class="hero__dot" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section id="a-propos" class="about section section--nude">
+      <div class="container">
+        <div class="about__inner reveal">
+          <span class="eyebrow">À propos</span>
+          <h2 class="words"><span class="w" style="--d:.05s"><span class="wi">Bienvenue</span></span> <span class="w" style="--d:.16s"><span class="wi">chez</span></span> <span class="w" style="--d:.27s"><span class="wi">El</span></span> <span class="w" style="--d:.38s"><span class="wi">Room</span></span> <span class="w" style="--d:.49s"><span class="wi">Beauty</span></span></h2>
+          <p>
+            Un espace dédié à la beauté, au soin des détails et à la mise en valeur de votre personnalité.
+          </p>
+          <p>
+            Que ce soit pour un anniversaire, une soirée ou simplement pour vous faire belle,
+            El Room Beauty vous accompagne avec une prestation adaptée à votre occasion.
+          </p>
+          <span class="about__signature">Beauty • Makeup • Confidence</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRESTATIONS ============ -->
+    <section id="prestations" class="services section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Nos prestations</span>
+          <h2 data-split>Choisissez votre mise en beauté</h2>
+          <p>Trois formules pensées pour chaque occasion, du quotidien aux grands moments.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="images/makeup-simple.jpeg" alt="Makeup simple" width="960" height="1280" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3>Makeup simple</h3>
+              <p class="card__price">20 <span>$</span></p>
+              <p class="card__text">Pour une mise en beauté simple et élégante.</p>
+              <a href="#reservation" class="btn btn--outline btn--full" data-service="Makeup simple">Réserver</a>
+            </div>
+          </article>
+
+          <article class="card card--featured reveal">
+            <div class="card__media">
+              <img src="images/anniversaire.jpeg" alt="Makeup anniversaire et collation" width="853" height="1280" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3>Makeup anniversaire &amp; collation</h3>
+              <p class="card__price">25 <span>$</span></p>
+              <p class="card__text">Une mise en beauté pensée pour vos moments spéciaux.</p>
+              <a href="#reservation" class="btn btn--full" data-service="Makeup anniversaire &amp; collation">Réserver</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="images/makeup-soiree.jpeg" alt="Makeup soirée" width="820" height="1458" loading="lazy">
+            </div>
+            <div class="card__body">
+              <h3>Makeup soirée</h3>
+              <p class="card__price">30 <span>$</span></p>
+              <p class="card__text">Une mise en beauté plus sophistiquée pour vos soirées et événements.</p>
+              <a href="#reservation" class="btn btn--outline btn--full" data-service="Makeup soirée">Réserver</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALERIE ============ -->
+    <section id="galerie" class="gallery section section--tint">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Galerie</span>
+          <h2>Nos réalisations</h2>
+          <p>Quelques examples de mise en beauté réalisées par El Room Beauty.</p>
+        </div>
+
+        <div class="gallery__filters reveal" role="group" aria-label="Filtrer les réalisations">
+          <button class="chip is-active" data-filter="all">Tout</button>
+          <button class="chip" data-filter="simple">Makeup simple</button>
+          <button class="chip" data-filter="anniversaire">Anniversaire</button>
+          <button class="chip" data-filter="soiree">Soirée</button>
+        </div>
+
+        <div class="gallery__grid" id="galleryGrid">
+
+          <figure class="gallery__item reveal" data-cat="simple">
+            <img src="images/galerie/01-simple.jpeg" alt="Maquillage simple" loading="lazy" width="810" height="1080">
+          </figure>
+          <figure class="gallery__item reveal" data-cat="simple">
+            <img src="images/galerie/02-simple.jpeg" alt="Maquillage simple" loading="lazy" width="810" height="1080">
+          </figure>
+          <figure class="gallery__item reveal" data-cat="simple">
+            <img src="images/galerie/03-simple.jpeg" alt="Maquillage simple" loading="lazy" width="810" height="1080">
+          </figure>
+
+          <figure class="gallery__item reveal" data-cat="anniversaire">
+            <img src="images/galerie/04-anniversaire.jpeg" alt="Maquillage anniversaire &amp; collation" loading="lazy" width="810" height="1080">
+          </figure>
+          <figure class="gallery__item reveal" data-cat="anniversaire">
+            <img src="images/galerie/05-anniversaire.jpeg" alt="Maquillage anniversaire &amp; collation" loading="lazy" width="810" height="1080">
+          </figure>
+
+          <figure class="gallery__item reveal" data-cat="anniversaire">
+            <img src="images/galerie/06-anniversaire.jpeg" alt="Maquillage anniversaire &amp; collation" loading="lazy" width="960" height="1280">
+          </figure>
+
+          <figure class="gallery__item reveal" data-cat="soiree">
+            <img src="images/galerie/07-soiree.jpeg" alt="Maquillage soirée" loading="lazy" width="810" height="1080">
+          </figure>
+          <figure class="gallery__item reveal" data-cat="soiree">
+            <img src="images/galerie/08-soiree.jpeg" alt="Maquillage soirée" loading="lazy" width="810" height="1080">
+          </figure>
+          <figure class="gallery__item reveal" data-cat="soiree">
+            <img src="images/galerie/09-soiree.jpeg" alt="Maquillage soirée" loading="lazy" width="608" height="1080">
+          </figure>
+          <figure class="gallery__item reveal" data-cat="soiree">
+            <img src="images/galerie/10-soiree.jpeg" alt="Maquillage soirée" loading="lazy" width="608" height="1080">
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RÉSERVATION ============ -->
+    <section id="reservation" class="booking section section--nude">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Réservation</span>
+          <h2 data-split>Réserver votre rendez-vous</h2>
+          <p>Remplissez le formulaire, votre demande s'ouvrira directement dans WhatsApp.</p>
+        </div>
+
+        <form class="booking__form reveal" id="bookingForm">
+
+          <div class="booking__row">
+            <label class="field">
+              <span class="field__label">Nom complet</span>
+              <input class="field__input" type="text" name="nom" placeholder="Grâce Mukendi" autocomplete="name" required>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Numéro WhatsApp</span>
+              <input class="field__input" type="tel" name="whatsapp" placeholder="+243 979 000 000" autocomplete="tel" required>
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Prestation</span>
+            <select class="field__select" name="prestation" id="prestation" required>
+              <option value="">Choisir une prestation</option>
+              <option value="Makeup simple">Makeup simple — 20 $</option>
+              <option value="Makeup anniversaire &amp; collation">Makeup anniversaire &amp; collation — 25 $</option>
+              <option value="Makeup soirée">Makeup soirée — 30 $</option>
+            </select>
+          </label>
+
+          <div class="booking__row">
+            <label class="field">
+              <span class="field__label">Date souhaitée</span>
+              <input class="field__input" type="date" name="date" id="date" required>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Heure souhaitée</span>
+              <input class="field__input" type="time" name="heure" value="09:00" required>
+            </label>
+          </div>
+
+          <fieldset class="booking__choice">
+            <legend class="field__label">Lieu</legend>
+
+            <label class="choice">
+              <input type="radio" name="lieu" value="Je viens chez El Room Beauty" data-travel="no" checked>
+              <span class="choice__box">
+                <strong>Je viens chez El Room Beauty</strong>
+                <em>Au salon</em>
+              </span>
+            </label>
+
+            <label class="choice">
+              <input type="radio" name="lieu" value="Déplacement à domicile" data-travel="yes">
+              <span class="choice__box">
+                <strong>Je souhaite un déplacement</strong>
+                <em>Service à domicile</em>
+              </span>
+            </label>
+          </fieldset>
+
+          <div class="booking__travel is-hidden" id="travelFields">
+            <div class="booking__row">
+              <label class="field">
+                <span class="field__label">Commune</span>
+                <input class="field__input" type="text" name="commune" placeholder="Kintambo">
+              </label>
+
+              <label class="field">
+                <span class="field__label">Quartier</span>
+                <input class="field__input" type="text" name="quartier" placeholder="Bel-Air">
+              </label>
+            </div>
+
+            <label class="field">
+              <span class="field__label">Adresse</span>
+              <input class="field__input" type="text" name="adresse" placeholder="Av. de la Libération, n°...">
+            </label>
+
+            <label class="field">
+              <span class="field__label">Point de repère (facultatif)</span>
+              <input class="field__input" type="text" name="repere" placeholder="En face de la pharmacie...">
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Message complémentaire</span>
+            <textarea class="field__area" name="message" placeholder="Informations additionales..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn--full booking__submit">Envoyer ma demande sur WhatsApp</button>
+
+          <p class="booking__note">
+            Remplis le formulaire puis clique sur le bouton : WhatsApp s'ouvre et tu m'écris directement.
+          </p>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ DÉPLACEMENT ============ -->
+    <section id="deplacement" class="travel section">
+      <div class="container">
+        <div class="travel__inner reveal">
+          <span class="eyebrow">Service à domicile</span>
+          <h2>Vous préférez être maquillée chez vous&nbsp;?</h2>
+          <p class="travel__lead">
+            El Room Beauty se déplace également selon votre localisation.
+          </p>
+
+          <ul class="travel__points">
+            <li>Commune, quartier et adresse suffit</li>
+            <li>Mêmes prestations qu'au salon</li>
+            <li>Frais de déplacement&nbsp;: selon la localisation</li>
+          </ul>
+
+          <p class="travel__note">
+            Le montant des frais vous sera communiqué après réception de votre demande.
+          </p>
+
+          <a href="#reservation" class="btn" id="travelCta">Demander un déplacement</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PAIEMENT ============ -->
+    <section id="paiement" class="payment section section--nude">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Paiement</span>
+          <h2>Moyens de paiement</h2>
+          <p>
+            Après confirmation de votre rendez-vous, vous pouvez effectuer votre paiement
+            via les moyens de paiement mobile disponibles.
+          </p>
+        </div>
+
+        <div class="payment__grid">
+          <div class="pay reveal">
+            <span class="pay__name">M-Pesa</span>
+            <button class="pay__number" type="button" data-copy="+243 836 765 607">+243 836 765 607</button>
+            <span class="pay__hint">Cliquez pour copier le numéro</span>
+          </div>
+
+          <div class="pay reveal">
+            <span class="pay__name">Airtel Money</span>
+            <button class="pay__number" type="button" data-copy="+243 979 497 516">+243 979 497 516</button>
+            <span class="pay__hint">Cliquez pour copier le numéro</span>
+          </div>
+        </div>
+
+        <p class="payment__note reveal">
+          Après votre paiement, envoyez-nous la preuve par WhatsApp
+          <a href="https://wa.me/243979497516" data-wa target="_blank" rel="noopener">+243 979 497 516</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ TIKTOK ============ -->
+    <section id="tiktok" class="tiktok section">
+      <div class="container">
+        <div class="tiktok__inner reveal">
+          <span class="eyebrow">TikTok</span>
+          <h2 data-split>Découvrez notre univers beauté</h2>
+          <p class="tiktok__lead">
+            Retrouvez nos réalisations, transformations et vidéos sur TikTok.
+          </p>
+          <p class="tiktok__handle">@mlle_tshitoko09</p>
+
+          <a href="https://www.tiktok.com/@mlle_tshitoko09" target="_blank" rel="noopener" class="btn tiktok__cta">
+            Voir nos vidéos sur TikTok →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT (étape 11) ============ -->
+    <section id="contact" class="contact section section--tint">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>EL ROOM BEAUTY</h2>
+          <p>Beauty • Makeup • Confidence</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <h3>Nous trouver</h3>
+            <p class="contact__address">
+              Av. Mbavu n° 1 bis<br>
+              Commune de Bandalungwa — Synkin<br>
+              Kinshasa<br>
+              <em>Réf. Station Bisengo</em>
+            </p>
+
+            <h3>Écrire ou appeler</h3>
+            <p class="contact__phone">
+              <a href="https://wa.me/243979497516" data-wa target="_blank" rel="noopener">+243 979 497 516</a>
+            </p>
+
+            <div class="contact__actions">
+              <a href="https://wa.me/243979497516" data-wa target="_blank" rel="noopener" class="btn btn--small">WhatsApp</a>
+              <a href="tel:+243979497516" class="btn btn--small btn--outline">Appeler</a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Mbavu%201%20bis%2C%20Bandalungwa%2C%20Synkin%2C%20Kinshasa" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Itinéraire</a>
+              <a href="https://www.tiktok.com/@mlle_tshitoko09" target="_blank" rel="noopener" class="btn btn--small btn--ghost">TikTok</a>
+            </div>
+          </div>
+
+          <div class="contact__map reveal">
+            <iframe
+              title="El Room Beauty — Av. Mbavu 1 bis, Bandalungwa, Kinshasa"
+              src="https://www.google.com/maps?q=Av.%20Mbavu%201%20bis%2C%20Bandalungwa%2C%20Synkin%2C%20Kinshasa&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer__brand">EL ROOM BEAUTY</p>
+    <p class="footer__tag">Beauty • Makeup • Confidence</p>
+
+    <nav class="footer__links">
+      <a href="#accueil">Accueil</a>
+      <a href="#prestations">Prestations</a>
+      <a href="#reservation">Réservation</a>
+      <a href="https://www.tiktok.com/@mlle_tshitoko09" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://wa.me/243979497516" data-wa target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+
+    <p class="footer__copy">
+      © 2026 El Room Beauty — Tous droits réservés.<br>
+      République Démocratique du Congo — Tous droits réservés.
+    </p>
+    <p class="footer__dev">Site conçu et développé par Ezechiel Itewe</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
